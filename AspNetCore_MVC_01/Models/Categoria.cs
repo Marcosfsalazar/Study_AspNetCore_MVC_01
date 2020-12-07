@@ -12,7 +12,7 @@ namespace AspNetCore_MVC_01.Models
         [Display(Name = "Descrição")]
         [Required(ErrorMessage ="O campo é obrigatório!")]
         public string descricao { get; set; }
-        public List<Produto> Produtos { get; set; }
+        //public List<Produto> Produtos { get; set; }
     }
 
 }
