@@ -12,6 +12,7 @@ namespace AspNetCore_MVC_01.Models
         [Display(Name = "Descrição")]
         [Required(ErrorMessage = "O campo é obrigatório!")]
         public string Descricao { get; set; }
+        [Range(1,10,ErrorMessage ="Valor fora da faixa!")]
         public int Quantidade { get; set; }
         public int CategoriaId { get; set; }
         public Categoria Categoria { get; set; }
